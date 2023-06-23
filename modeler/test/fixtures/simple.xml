@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcr:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:dcr="http://tk/schema/dcr" xmlns:dcrDi="http://tk/schema/dcrDi" id="sample-diagram">
+  <dcr:dcrBoard id="Board_1">
+    <dcr:object name="From" id="Object_1p25ue3">
+      <dcr:links>Link_0qxrhog</dcr:links>
+    </dcr:object>
+    <dcr:object name="To" id="Object_13xngys" />
+    <dcr:link id="Link_0qxrhog" sourceRef="Object_1p25ue3" targetRef="Object_13xngys" />
+  </dcr:dcrBoard>
+  <dcrDi:dcrRootBoard id="RootBoard_1">
+    <dcrDi:dcrPlane id="OdPlane_1" boardElement="Board_1">
+      <dcrDi:link id="Link_0qxrhog_di" boardElement="Link_0qxrhog">
+        <dcrDi:waypoint x="373" y="283" />
+        <dcrDi:waypoint x="501" y="283" />
+      </dcrDi:link>
+      <dcrDi:dcrShape id="Object_1p25ue3_di" boardElement="Object_1p25ue3">
+        <dc:Bounds x="223" y="238" width="150" height="90" />
+      </dcrDi:dcrShape>
+      <dcrDi:dcrShape id="Object_13xngys_di" boardElement="Object_13xngys">
+        <dc:Bounds x="501" y="238" width="150" height="90" />
+      </dcrDi:dcrShape>
+    </dcrDi:dcrPlane>
+  </dcrDi:dcrRootBoard>
+</dcr:definitions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcr:definitions xmlns:dcr="http://tk/schema/dcr" xmlns:dcrDi="http://tk/schema/dcrDi">
+    <dcr:dcrBoard id="Board_debug" />
+    <dcrDi:dcrRootBoard id="RootBoard_debug">
+        <dcrDi:dcrPlane id="Plane_debug" boardElement="Board_debug" />
+    </dcrDi:dcrRootBoard>
+</dcr:definitions>
